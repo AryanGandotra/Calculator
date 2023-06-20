@@ -1,0 +1,65 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <input type="text" name="display" class="screen">
+        <div class="numbers">
+            <div class="row">
+                <ul>
+                    <input type="button" value="AC">
+                    <input type="button" value="DEL">
+                    <input type="button" value=".">
+                    <input type="button" value="/">
+                </ul>
+            </div>
+            <div class="row">
+                <ul>
+                    <input type="button" value="7" onclick="screen.value = '7'">
+                    <input type="button" value="8">
+                    <input type="button" value="9">
+                    <input type="button" value="*">
+                </ul>
+            </div>
+            <div class="row">
+                <ul>
+                    <input type="button" value="4">
+                    <input type="button" value="5">
+                    <input type="button" value="6">
+                    <input type="button" value="-">
+                </ul>
+            </div>
+            <div class="row">
+                <ul>
+                    <input type="button" value="1">
+                    <input type="button" value="2">
+                    <input type="button" value="3">
+                    <input type="button" value="+">
+                </ul>
+            </div>
+            <div class="row">
+                <ul>
+                    <input type="button" value="00">
+                    <input type="button" value="0">
+                    <input type="button" class="double" value="=" style="width: 45%;">
+                </ul>
+            </div>
+
+        </div>
+    </div>
+    <div class="history">
+        <h1>History</h1>
+        <ul class="history-list">
+        </ul>
+    </div>
+    <div class="get_history">Show History</div>
+    <script src="app.js"></script>
+</body>
+
+</html>
