@@ -80,6 +80,10 @@ ul {
     background-color: #2C2F33;
 }
 
+.row ul input.double{
+    width: 45%;
+}
+
 .button {
     color: white;
 }
