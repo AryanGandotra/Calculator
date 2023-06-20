@@ -50,3 +50,9 @@ To use the calculator:
 The calculator's appearance can be customized by modifying the styles.css file. You can change colors, font styles, button sizes, and other visual aspects to match your desired design.
 
 ## Demo
+
+![](https://github.com/AryanGandotra/Calculator/blob/main/Images/1.png)
+
+![](https://github.com/AryanGandotra/Calculator/blob/main/Images/2.png)
+
+![](https://github.com/AryanGandotra/Calculator/blob/main/Images/3.png)
